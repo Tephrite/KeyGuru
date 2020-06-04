@@ -580,7 +580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 826, y: -387}
+  m_AnchoredPosition: {x: 837, y: -299.4}
   m_SizeDelta: {x: 242.9, y: 160.17703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1314262670
@@ -824,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00018310547, y: 286.19}
-  m_SizeDelta: {x: -0.00024414062, y: -572.3714}
+  m_AnchoredPosition: {x: 0.5999756, y: -113}
+  m_SizeDelta: {x: -670.24774, y: -636.3838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647409631
 MonoBehaviour:
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THEORY OR  SONGS
+  m_text: THEORY                               SONGS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -875,14 +875,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 84
-  m_fontSizeBase: 84
+  m_fontSize: 35.7
+  m_fontSizeBase: 35.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_textAlignment: 514
+  m_textAlignment: 513
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -916,10 +916,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0.71361136, z: 0, w: 0.6210436}
   m_textInfo:
     textComponent: {fileID: 1647409631}
-    characterCount: 16
+    characterCount: 42
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 3
+    spaceCount: 31
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -986,7 +986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 394, y: -387.6}
+  m_AnchoredPosition: {x: 405, y: -300}
   m_SizeDelta: {x: 242.9, y: 157.98792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834051852
