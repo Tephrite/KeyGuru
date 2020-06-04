@@ -6,27 +6,29 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-    public static void SavePlayer(Player player)
+    public static void SaveSong(Song song)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/player.data";
+        string path = Application.persistentDataPath + "/" +song.artist+" - "+song.title+".data";
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        PlayerData data = new PlayerData(player);
+        SongData data = new SongData(song);
 
         formatter.Serialize(stream, data);
         stream.Close();
+        Debug.Log(path);
     }
 
-    public static PlayerData LoadPlayer()
+    public static SongData LoadSong(Song song)
     {
-        string path = Application.persistentDataPath + "/player.data";
+        string path = Application.persistentDataPath + "/" + song.artist + " - " + song.title + ".data";
+        
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            PlayerData data = formatter.Deserialize(stream) as PlayerData;
+            SongData data = formatter.Deserialize(stream) as SongData;
 
             stream.Close();
 

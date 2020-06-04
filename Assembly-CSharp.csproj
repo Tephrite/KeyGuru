@@ -65,21 +65,25 @@
   <ItemGroup>
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\BGSound.cs" />
+    <Compile Include="Assets\BeatScroller.cs" />
     <Compile Include="Assets\ChangeText.cs" />
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\KeyCollision.cs" />
     <Compile Include="Assets\LevelSelector.cs" />
+    <Compile Include="Assets\MIDIController.cs" />
     <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\MenuPopup.cs" />
     <Compile Include="Assets\MidiJack\Midi.cs" />
     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
     <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
+    <Compile Include="Assets\NoteObject.cs" />
     <Compile Include="Assets\OptionsMenu.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\PlayerData.cs" />
     <Compile Include="Assets\SaveSystem.cs" />
     <Compile Include="Assets\SceneFader.cs" />
+    <Compile Include="Assets\Song.cs" />
+    <Compile Include="Assets\SongData.cs" />
     <Compile Include="Assets\Sound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
