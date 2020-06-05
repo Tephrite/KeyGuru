@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SongTemplate.unity
+- path: Assets/Scenes/Scales/AScale.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
