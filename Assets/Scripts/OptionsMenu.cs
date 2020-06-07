@@ -1,10 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Audio;
-using System.Runtime.Remoting.Messaging;
 
 public class OptionsMenu : MonoBehaviour
 {

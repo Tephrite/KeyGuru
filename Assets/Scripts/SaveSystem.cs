@@ -16,12 +16,11 @@ public static class SaveSystem
 
         formatter.Serialize(stream, data);
         stream.Close();
-        Debug.Log(path);
+        Debug.Log("File saved to " + path);
     }
 
     public static SongData LoadSong(string title, string artist)
     {
-
 
         string path = Application.persistentDataPath + "/" + artist + " - " + title + ".data";
         
@@ -38,8 +37,19 @@ public static class SaveSystem
         }
         else
         {
-            Debug.LogError("File Not Found - " + path);
-            return null;
+            Song defaultFile = new Song();
+            defaultFile.title = title;
+            defaultFile.artist = artist;
+            SaveSong(defaultFile);
+
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            SongData data = formatter.Deserialize(stream) as SongData;
+
+            stream.Close();
+
+            return data;
         }
     }
 }

@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SongTemplate.unity
     guid: ca26246f196c73343a454a53150ecdda
   - enabled: 1
-    path: Assets/Scenes/Songs/PompeiiBastille.unity
-    guid: 20609e09454ffe44ea24e212085b9b09
+    path: Assets/Scenes/Scales/AScale.unity
+    guid: fd37c9c710ac5064c838a5217ca2bd8e
   m_configObjects: {}

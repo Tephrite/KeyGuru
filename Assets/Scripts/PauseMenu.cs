@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
@@ -47,15 +44,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
-        if (Application.isEditor)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-
-        else
-        {
-            Application.Quit();
-        }
+        Application.Quit();
+        
           
     }
 }

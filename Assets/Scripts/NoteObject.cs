@@ -6,12 +6,17 @@ public class NoteObject : MonoBehaviour
 {
 
     public bool canBePressed;
+    public bool isScale;
+    public int noteNumber;
 
     public int keyToPress;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (isScale){
+            transform.localPosition = new Vector3(transform.localPosition.x, (-90.0f + noteNumber * 67.0f), transform.localPosition.z);
+        }
         
     }
 

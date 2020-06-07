@@ -29,18 +29,4 @@ public class Song : LevelSelector
         levelSelector.GetComponent<LevelSelector>().levelName = (title + artist).Replace(" ", "");
     }
 
-    /*public void SaveSong()
-    {
-        SaveSystem.SaveSong(this);
-        
-        Debug.Log(highScore);
-    }
-
-    public void LoadSong()
-    {
-        SongData data = SaveSystem.LoadSong(this);
-
-        highScore = data.highScore;
-        highStreak = data.highStreak;
-    }*/
 }

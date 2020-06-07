@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,7 +7,7 @@ public class GameManager : MonoBehaviour
    
     public static GameManager instance;
 
-    Song song = new Song();
+    Song song;
     SongData songData;
     public string songTitle;
     public string songArtist;
@@ -37,6 +33,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         instance = this;
+
+        song = new Song();
 
         pointsText.text = "POINTS: " + 0;
         streakText.text = "STREAK: " + 0;
