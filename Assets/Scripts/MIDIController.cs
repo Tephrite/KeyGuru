@@ -9,6 +9,7 @@ public class MIDIController : MonoBehaviour
 {
 
     public Image[] keys = { };
+    public AudioSource song;
 
     // Start is called before the first frame update
     void Start()
@@ -18,30 +19,35 @@ public class MIDIController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
-        for(int x = 0; x < keys.Length; x++)
+    {
+        if (song.isPlaying)
         {
-      
-            if (MidiMaster.GetKeyDown(x+36))
-            {
-                //Debug.Log(keys[x].name + " Pressed");
 
-                keys[x].GetComponent<Image>().color = new Color32(191, 71, 71, 255);
-            }
-            if (MidiMaster.GetKeyUp(x + 36))
+            for(int x = 0; x < keys.Length; x++)
             {
-                //Debug.Log(keys[x].name + " Released");
+                //Debug.Log("Test");
+                if (MidiMaster.GetKeyDown(x+36))
+                {
+                    //Debug.Log(keys[x].name + " Pressed");
 
-                if (keys[x].GetComponent<Image>().name.Contains("#"))
-                {
-                    keys[x].GetComponent<Image>().color = new Color32(0, 0, 0, 255);
+                    keys[x].GetComponent<Image>().color = new Color32(191, 71, 71, 255);
                 }
-                else
+                if (MidiMaster.GetKeyUp(x + 36))
                 {
-                    keys[x].GetComponent<Image>().color = new Color32(241, 241, 241, 255);
+                    //Debug.Log(keys[x].name + " Released");
+
+                    if (keys[x].GetComponent<Image>().name.Contains("#"))
+                    {
+                        keys[x].GetComponent<Image>().color = new Color32(0, 0, 0, 255);
+                    }
+                    else
+                    {
+                        keys[x].GetComponent<Image>().color = new Color32(241, 241, 241, 255);
+                    }
                 }
             }
+
         }
-        
+
     }
 }

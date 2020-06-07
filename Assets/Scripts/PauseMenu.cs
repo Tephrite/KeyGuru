@@ -6,6 +6,7 @@ public class PauseMenu : MonoBehaviour
     public static bool Paused = false;
 
     public GameObject pauseMenuUI;
+    public AudioSource song;
 
     void Update()
     {
@@ -26,6 +27,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        song.Play();
         Paused = false;
     }
 
@@ -33,6 +35,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
+        song.Pause();
         Paused = true;
     }
 

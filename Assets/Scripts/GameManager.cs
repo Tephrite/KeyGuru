@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (!music.isPlaying && !resultsScreen.activeInHierarchy)
+        if (!music.isPlaying && !resultsScreen.activeInHierarchy && !PauseMenu.Paused )
         {
             resultsScreen.SetActive(true);
 

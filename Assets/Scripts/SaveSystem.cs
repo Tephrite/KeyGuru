@@ -9,7 +9,17 @@ public static class SaveSystem
     public static void SaveSong(Song song)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/" +song.artist+" - "+song.title+".data";
+        string path;
+
+        if (song.artist.Length > 1)
+        {
+            path = Application.persistentDataPath + "/" + song.artist + " - " + song.title + ".data";
+        }
+        else
+        {
+            path = Application.persistentDataPath + "/" + song.title + ".data";
+        }
+
         FileStream stream = new FileStream(path, FileMode.Create);
 
         SongData data = new SongData(song);
@@ -21,8 +31,17 @@ public static class SaveSystem
 
     public static SongData LoadSong(string title, string artist)
     {
+        string path;
 
-        string path = Application.persistentDataPath + "/" + artist + " - " + title + ".data";
+        if (artist.Length > 1)
+        {
+            path = Application.persistentDataPath + "/" + artist + " - " + title + ".data";
+        }
+        else
+        {
+            path = Application.persistentDataPath + "/" + title + ".data";
+        }
+        
         
         if (File.Exists(path))
         {
@@ -32,7 +51,7 @@ public static class SaveSystem
             SongData data = formatter.Deserialize(stream) as SongData;
 
             stream.Close();
-
+            Debug.Log("File Loaded From" + path);
             return data;
         }
         else
@@ -48,8 +67,11 @@ public static class SaveSystem
             SongData data = formatter.Deserialize(stream) as SongData;
 
             stream.Close();
+            Debug.Log("File Loaded From" + path);
 
             return data;
         }
+
+        
     }
 }

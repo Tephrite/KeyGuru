@@ -20,11 +20,18 @@ public class Song : LevelSelector
 
     public void updatePopup()
     {
+        
+
         popupUI.SetActive(true);
         artistText.text = "ARTIST: " + artist;
         titleText.text = "TITLE: " + title;
-        highScoreText.text = "HIGH SCORE: " + highScore;
-        highStreakText.text = "HIGH STREAK: " + highStreak;
+
+        SongData song = SaveSystem.LoadSong(title, artist);
+
+        Debug.Log(song.title + song.highScore + song.highStreak);
+
+        highScoreText.text = "HIGH SCORE: " + song.highScore;
+        highStreakText.text = "HIGH STREAK: " + song.highStreak;
 
         levelSelector.GetComponent<LevelSelector>().levelName = (title + artist).Replace(" ", "");
     }
