@@ -10,7 +10,7 @@ public class BeatScroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        beatTempo = beatTempo + 70.0f;
+        beatTempo = beatTempo + 87f;
     }
 
     // Update is called once per frame

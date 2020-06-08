@@ -7,7 +7,7 @@ public class NoteObject : MonoBehaviour
 
     public bool canBePressed;
     public bool isScale;
-    public int noteNumber;
+    public float noteNumber;
 
     public int keyToPress;
 

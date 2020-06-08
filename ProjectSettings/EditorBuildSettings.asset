@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scales/Easy/GMajorScale.unity
     guid: 4b8ef8e6b49dacf44b5bffe0584221e3
+  - enabled: 1
+    path: Assets/Scenes/Songs/PompeiiBastille.unity
+    guid: cd577c678a6a95a4baa05e184a7c05b1
   m_configObjects: {}
