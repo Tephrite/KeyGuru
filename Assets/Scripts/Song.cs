@@ -36,8 +36,10 @@ public class Song : LevelSelector
         highScoreText.text = "HIGH SCORE: " + song.highScore;
         highStreakText.text = "HIGH STREAK: " + song.highStreak;
 
-        //popupImage.sprite = songImage.sprite;
-
+        if (songImage)
+        {
+            popupImage.sprite = songImage.sprite;
+        }
         levelSelector.GetComponent<LevelSelector>().levelName = (title + artist).Replace(" ", "");
     }
 
