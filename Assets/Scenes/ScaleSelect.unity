@@ -1677,10 +1677,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: G Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &508983006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2225,10 +2227,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: D Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &696496836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3033,10 +3037,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: C Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &1026285704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4117,10 +4123,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: B Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &1314262677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5007,10 +5015,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: A Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &1834051859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5109,22 +5119,22 @@ PrefabInstance:
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0001564
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000020981
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1149.9999
+      value: 1195.1647
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 634
+      value: 695.72534
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
@@ -5529,10 +5539,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: E Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &1992704444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,10 +5935,12 @@ MonoBehaviour:
   titleText: {fileID: 294378815}
   highScoreText: {fileID: 337523545}
   highStreakText: {fileID: 61244231}
+  popupImage: {fileID: 0}
   title: F Major Scale
   artist: 
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &2096729604
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Song : LevelSelector
 {
@@ -11,12 +12,14 @@ public class Song : LevelSelector
     public TMPro.TMP_Text titleText;
     public TMPro.TMP_Text highScoreText;
     public TMPro.TMP_Text highStreakText;
+    public Image popupImage;
     
 
     public string title = null;
     public string artist = null;
     public int highScore = 0;
     public int highStreak = 0;
+    public Image songImage;
 
     public void updatePopup()
     {
@@ -32,6 +35,8 @@ public class Song : LevelSelector
 
         highScoreText.text = "HIGH SCORE: " + song.highScore;
         highStreakText.text = "HIGH STREAK: " + song.highStreak;
+
+        //popupImage.sprite = songImage.sprite;
 
         levelSelector.GetComponent<LevelSelector>().levelName = (title + artist).Replace(" ", "");
     }

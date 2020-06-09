@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 182697650}
   - component: {fileID: 182697649}
   m_Layer: 5
-  m_Name: SongButton
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,10 +444,12 @@ MonoBehaviour:
   titleText: {fileID: 0}
   highScoreText: {fileID: 0}
   highStreakText: {fileID: 0}
+  popupImage: {fileID: 0}
   title: Pompeii
   artist: Bastille
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!95 &182697651
 Animator:
   serializedVersion: 3
@@ -535,7 +537,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 182697655}
   m_OnClick:
     m_PersistentCalls:
@@ -1797,22 +1799,22 @@ PrefabInstance:
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00002053
+      value: 6.7
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000012986
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1149.9999
+      value: 1210.2198
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 634
+      value: 692.71423
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}

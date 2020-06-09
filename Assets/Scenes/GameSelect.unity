@@ -1168,10 +1168,12 @@ MonoBehaviour:
   titleText: {fileID: 0}
   highScoreText: {fileID: 0}
   highStreakText: {fileID: 0}
+  popupImage: {fileID: 0}
   title: Pompeii
   artist: Bastille
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!95 &1705307441
 Animator:
   serializedVersion: 3
@@ -1627,22 +1629,22 @@ PrefabInstance:
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00002053
+      value: -13.4
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000012986
+      value: -12.6
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1149.9999
+      value: 1246.3514
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 634
+      value: 737.87915
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}

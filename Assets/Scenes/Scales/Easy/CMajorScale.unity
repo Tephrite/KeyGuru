@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4ac8d82bdd54c40b55ef9abcfa8501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTempo: 100
+  beatTempo: 85
 --- !u!1 &28144285
 GameObject:
   m_ObjectHideFlags: 0

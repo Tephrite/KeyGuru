@@ -1317,10 +1317,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Pompeii
   artist: Bastille
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!95 &205580176
 Animator:
   serializedVersion: 3
@@ -2244,10 +2246,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Paris
   artist: The Chainsmokers
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &598269851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,10 +2946,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: IDFC
   artist: Blackbear
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &700727163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4267,10 +4273,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: NYLA
   artist: Blackbear
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &1118396101
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,10 +5064,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: "F\xFCr Elise"
   artist: Beethoven
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &1321890849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6481,10 +6491,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Pompeii
   artist: Bastille
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!114 &1834051859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6620,22 +6632,22 @@ PrefabInstance:
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0001564
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000020981
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1149.9999
+      value: 1211.725
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 634
+      value: 707.7693
       objectReference: {fileID: 0}
     - target: {fileID: 6856460557058454472, guid: 0399a27c384dbec4d93e18b3cefcf83b,
         type: 3}
@@ -7145,10 +7157,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Somebody Else
   artist: The 1975
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &1984340669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7510,10 +7524,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Sunflower
   artist: Post Malone
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &2003053316
 GameObject:
   m_ObjectHideFlags: 0
@@ -8031,10 +8047,12 @@ MonoBehaviour:
   titleText: {fileID: 1610221691}
   highScoreText: {fileID: 1413300173}
   highStreakText: {fileID: 1118396103}
+  popupImage: {fileID: 0}
   title: Blinding Lights
   artist: The Weeknd
   highScore: 0
   highStreak: 0
+  songImage: {fileID: 0}
 --- !u!1 &2105324295
 GameObject:
   m_ObjectHideFlags: 0

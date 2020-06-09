@@ -11,6 +11,7 @@ public class OptionsMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
@@ -39,7 +40,7 @@ public class OptionsMenu : MonoBehaviour
     public void SetResolution (int resolutionIndex)
     {
         Resolution resolution = resolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        Screen.SetResolution(resolution.width, resolution.height, true);
     }
 
     public void SetVolume (float volume)
@@ -53,8 +54,5 @@ public class OptionsMenu : MonoBehaviour
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
-    public void setFullscreen (bool isFullscreen)
-    {
-        //Screen.fullScreen = isFullscreen;
-    }
+    
 }
